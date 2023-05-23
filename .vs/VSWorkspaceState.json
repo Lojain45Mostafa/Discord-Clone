@@ -1,6 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Messaging-System-WPF",
+    "\\Messaging-System-WPF\\View"
   ],
   "SelectedNode": "\\Messaging-System-WPF.sln",
   "PreviewInSolutionExplorer": false

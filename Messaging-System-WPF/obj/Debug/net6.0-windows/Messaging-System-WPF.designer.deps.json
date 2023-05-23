@@ -6,6 +6,25 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
+      "amChartsQuickCharts/1.1.0": {
+        "runtime": {
+          "lib/net35/AmCharts.Windows.QuickCharts.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Bunifu.Charts.WinForms/2.0.0": {
+        "dependencies": {
+          "Bunifu.Licensing": "5.0.0"
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/Bunifu.Charts.WinForms.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
       "Bunifu.Licensing/5.0.0": {
         "dependencies": {
           "Microsoft.Windows.Compatibility": "6.0.0",
@@ -54,12 +73,54 @@
           }
         }
       },
+      "CircularProgressBar/2.8.0.16": {
+        "dependencies": {
+          "WinFormAnimation": "1.6.0.4"
+        },
+        "runtime": {
+          "lib/net40/CircularProgressBar.dll": {
+            "assemblyVersion": "2.8.0.16",
+            "fileVersion": "2.8.0.16"
+          }
+        }
+      },
       "Costura.Fody/3.3.3": {
         "dependencies": {
           "Fody": "4.0.2"
         }
       },
       "Fody/4.0.2": {},
+      "LiveCharts/0.9.7": {
+        "runtime": {
+          "lib/net45/LiveCharts.dll": {
+            "assemblyVersion": "0.9.7.0",
+            "fileVersion": "0.9.7.0"
+          }
+        }
+      },
+      "LiveCharts.WinForms/0.9.7.1": {
+        "dependencies": {
+          "LiveCharts": "0.9.7",
+          "LiveCharts.Wpf": "0.9.7"
+        },
+        "runtime": {
+          "lib/net45/LiveCharts.WinForms.dll": {
+            "assemblyVersion": "0.9.7.1",
+            "fileVersion": "0.9.7.1"
+          }
+        }
+      },
+      "LiveCharts.Wpf/0.9.7": {
+        "dependencies": {
+          "LiveCharts": "0.9.7"
+        },
+        "runtime": {
+          "lib/net45/LiveCharts.Wpf.dll": {
+            "assemblyVersion": "0.9.7.0",
+            "fileVersion": "0.9.7.0"
+          }
+        }
+      },
       "MaterialSkin.2/2.3.1": {
         "runtime": {
           "lib/net5.0-windows7.0/MaterialSkin.dll": {
@@ -294,6 +355,26 @@
             "rid": "win-x86",
             "assetType": "native",
             "fileVersion": "4.6.25512.1"
+          }
+        }
+      },
+      "SciChart/7.0.1.27055": {
+        "runtime": {
+          "lib/net6.0-windows7.0/SciChart.Charting.dll": {
+            "assemblyVersion": "7.0.1.27055",
+            "fileVersion": "7.0.1.27055"
+          },
+          "lib/net6.0-windows7.0/SciChart.Core.dll": {
+            "assemblyVersion": "7.0.1.27055",
+            "fileVersion": "7.0.1.27055"
+          },
+          "lib/net6.0-windows7.0/SciChart.Data.dll": {
+            "assemblyVersion": "7.0.1.27055",
+            "fileVersion": "7.0.1.27055"
+          },
+          "lib/net6.0-windows7.0/SciChart.Drawing.dll": {
+            "assemblyVersion": "7.0.1.27055",
+            "fileVersion": "7.0.1.27055"
           }
         }
       },
@@ -1050,10 +1131,32 @@
             "fileVersion": "6.0.21.52210"
           }
         }
+      },
+      "WinFormAnimation/1.6.0.4": {
+        "runtime": {
+          "lib/net40/WinFormAnimation.dll": {
+            "assemblyVersion": "1.6.0.4",
+            "fileVersion": "1.6.0.4"
+          }
+        }
       }
     }
   },
   "libraries": {
+    "amChartsQuickCharts/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bN1aIO2WkkxvPc4z/n8VNhllNjAW8NiRJjsrDCOMAzGHNnrE1vlgT24R1ZTLEn0DUW8SfO7xbmCmn0yUmtv/1g==",
+      "path": "amchartsquickcharts/1.1.0",
+      "hashPath": "amchartsquickcharts.1.1.0.nupkg.sha512"
+    },
+    "Bunifu.Charts.WinForms/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-iJlzhS6qxvtBTNSqIoV8Cs6zSlcGUYZ3ycFZ31eR2j331VPdKBLXFH1GaMEfLKyvl8KQelaDOWuUYg8ZUnTT4g==",
+      "path": "bunifu.charts.winforms/2.0.0",
+      "hashPath": "bunifu.charts.winforms.2.0.0.nupkg.sha512"
+    },
     "Bunifu.Licensing/5.0.0": {
       "type": "package",
       "serviceable": true,
@@ -1075,6 +1178,13 @@
       "path": "bunifu.ui.winforms.1.5.3/1.0.0",
       "hashPath": "bunifu.ui.winforms.1.5.3.1.0.0.nupkg.sha512"
     },
+    "CircularProgressBar/2.8.0.16": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-P31wJxwTcQ2mA7wB4X+tnc9QlfSNyPzEOyt3qjf2/6cLLi8mERAfEwNcgt3Qv38/Xiyreo/nVYDe2zIVEv4SQw==",
+      "path": "circularprogressbar/2.8.0.16",
+      "hashPath": "circularprogressbar.2.8.0.16.nupkg.sha512"
+    },
     "Costura.Fody/3.3.3": {
       "type": "package",
       "serviceable": true,
@@ -1088,6 +1198,27 @@
       "sha512": "sha512-vY77397mlY3qP1+i3G/MsWMmwS2j+WOzEj9JrZvINZLkjBF+KvIFypv3Ro8eBH87Awx4tFdEYWBOL1HYO2gh4g==",
       "path": "fody/4.0.2",
       "hashPath": "fody.4.0.2.nupkg.sha512"
+    },
+    "LiveCharts/0.9.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-p4xyBrUaNNfkWZSNsIle0r51cyVyFg0Yi0uBRZM5GQtdFiA/7guZHlffFyNUILIdux10Ch2hUaJpcZENVU9aaQ==",
+      "path": "livecharts/0.9.7",
+      "hashPath": "livecharts.0.9.7.nupkg.sha512"
+    },
+    "LiveCharts.WinForms/0.9.7.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-eCBsVaxpUKHLpvlJEAhm+BQDWltnzc4VFhM4k4gJ+MsqyGQ/aq/AOWqTWx8OSJ0H52mDTJ1tQjErTYWeikLEOA==",
+      "path": "livecharts.winforms/0.9.7.1",
+      "hashPath": "livecharts.winforms.0.9.7.1.nupkg.sha512"
+    },
+    "LiveCharts.Wpf/0.9.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lv6YZoK0B4yWykMq5b9grZXtIbTj+OWu4sVN9GDpdgV6zffu64m4d5CW8KSjfSl9rB8VU649x1NZvhoU67hCDg==",
+      "path": "livecharts.wpf/0.9.7",
+      "hashPath": "livecharts.wpf.0.9.7.nupkg.sha512"
     },
     "MaterialSkin.2/2.3.1": {
       "type": "package",
@@ -1228,6 +1359,13 @@
       "sha512": "sha512-YhEdSQUsTx+C8m8Bw7ar5/VesXvCFMItyZF7G1AUY+OM0VPZUOeAVpJ4Wl6fydBGUYZxojTDR3I6Bj/+BPkJNA==",
       "path": "runtime.win-x86.runtime.native.system.data.sqlclient.sni/4.4.0",
       "hashPath": "runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512"
+    },
+    "SciChart/7.0.1.27055": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0v6NLT88wj3rcUYGlwT+F9OmVPVrrjnvMIfA//yM39mgPOuVSNvYvJ9X81636LlCF3BAU7NNpZ5+0sWtSkatug==",
+      "path": "scichart/7.0.1.27055",
+      "hashPath": "scichart.7.0.1.27055.nupkg.sha512"
     },
     "System.CodeDom/6.0.0": {
       "type": "package",
@@ -1515,6 +1653,13 @@
       "sha512": "sha512-IXoJOXIqc39AIe+CIR7koBtRGMiCt/LPM3lI+PELtDIy9XdyeSrwXFdWV9dzJ2Awl0paLWUaknLxFQ5HpHZUog==",
       "path": "system.windows.extensions/6.0.0",
       "hashPath": "system.windows.extensions.6.0.0.nupkg.sha512"
+    },
+    "WinFormAnimation/1.6.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YSic50luSCgFq+JejHBq5DKwxpNP1VH7uOyBXC+8v6dd+CuUYGlKSOL4EbwT1WeWJQvFBoDMqHnq7HsF95kxrw==",
+      "path": "winformanimation/1.6.0.4",
+      "hashPath": "winformanimation.1.6.0.4.nupkg.sha512"
     }
   }
 }
