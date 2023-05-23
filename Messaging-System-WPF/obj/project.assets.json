@@ -2,6 +2,34 @@
   "version": 3,
   "targets": {
     "net6.0-windows7.0": {
+      "amChartsQuickCharts/1.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net35/AmCharts.Windows.QuickCharts.dll": {}
+        },
+        "runtime": {
+          "lib/net35/AmCharts.Windows.QuickCharts.dll": {}
+        }
+      },
+      "Bunifu.Charts.WinForms/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Bunifu.Licensing": "5.0.0"
+        },
+        "compile": {
+          "lib/net6.0-windows7.0/Bunifu.Charts.WinForms.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/Bunifu.Charts.WinForms.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
       "Bunifu.Licensing/5.0.0": {
         "type": "package",
         "dependencies": {
@@ -63,6 +91,22 @@
           "Microsoft.WindowsDesktop.App.WindowsForms"
         ]
       },
+      "CircularProgressBar/2.8.0.16": {
+        "type": "package",
+        "dependencies": {
+          "WinFormAnimation": "1.6.0.4"
+        },
+        "compile": {
+          "lib/net40/CircularProgressBar.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net40/CircularProgressBar.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Costura.Fody/3.3.3": {
         "type": "package",
         "dependencies": {
@@ -76,6 +120,52 @@
         "type": "package",
         "build": {
           "build/_._": {}
+        }
+      },
+      "LiveCharts/0.9.7": {
+        "type": "package",
+        "compile": {
+          "lib/net45/LiveCharts.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/LiveCharts.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "LiveCharts.WinForms/0.9.7.1": {
+        "type": "package",
+        "dependencies": {
+          "LiveCharts": "0.9.7",
+          "LiveCharts.Wpf": "0.9.7"
+        },
+        "compile": {
+          "lib/net45/LiveCharts.WinForms.dll": {
+            "related": ".pdb;.XML"
+          }
+        },
+        "runtime": {
+          "lib/net45/LiveCharts.WinForms.dll": {
+            "related": ".pdb;.XML"
+          }
+        }
+      },
+      "LiveCharts.Wpf/0.9.7": {
+        "type": "package",
+        "dependencies": {
+          "LiveCharts": "0.9.7"
+        },
+        "compile": {
+          "lib/net45/LiveCharts.Wpf.dll": {
+            "related": ".pdb;.XML"
+          }
+        },
+        "runtime": {
+          "lib/net45/LiveCharts.Wpf.dll": {
+            "related": ".pdb;.XML"
+          }
         }
       },
       "MaterialSkin.2/2.3.1": {
@@ -360,6 +450,37 @@
           "runtimes/win-x86/native/sni.dll": {
             "assetType": "native",
             "rid": "win-x86"
+          }
+        }
+      },
+      "SciChart/7.0.1.27055": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-windows7.0/SciChart.Charting.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0-windows7.0/SciChart.Core.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0-windows7.0/SciChart.Data.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0-windows7.0/SciChart.Drawing.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/SciChart.Charting.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0-windows7.0/SciChart.Core.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0-windows7.0/SciChart.Data.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0-windows7.0/SciChart.Drawing.dll": {
+            "related": ".xml"
           }
         }
       },
@@ -1329,10 +1450,50 @@
             "rid": "win"
           }
         }
+      },
+      "WinFormAnimation/1.6.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/net40/WinFormAnimation.dll": {}
+        },
+        "runtime": {
+          "lib/net40/WinFormAnimation.dll": {}
+        }
       }
     }
   },
   "libraries": {
+    "amChartsQuickCharts/1.1.0": {
+      "sha512": "bN1aIO2WkkxvPc4z/n8VNhllNjAW8NiRJjsrDCOMAzGHNnrE1vlgT24R1ZTLEn0DUW8SfO7xbmCmn0yUmtv/1g==",
+      "type": "package",
+      "path": "amchartsquickcharts/1.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "amchartsquickcharts.1.1.0.nupkg.sha512",
+        "amchartsquickcharts.nuspec",
+        "lib/net35/AmCharts.Windows.QuickCharts.dll",
+        "lib/sl3-wp/AmCharts.Windows.QuickCharts.WP.dll",
+        "lib/sl40/AmCharts.Windows.QuickCharts.SL.dll"
+      ]
+    },
+    "Bunifu.Charts.WinForms/2.0.0": {
+      "sha512": "iJlzhS6qxvtBTNSqIoV8Cs6zSlcGUYZ3ycFZ31eR2j331VPdKBLXFH1GaMEfLKyvl8KQelaDOWuUYg8ZUnTT4g==",
+      "type": "package",
+      "path": "bunifu.charts.winforms/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.txt",
+        "bunifu.charts.winforms.2.0.0.nupkg.sha512",
+        "bunifu.charts.winforms.nuspec",
+        "lib/net40/Bunifu.Charts.WinForms.dll",
+        "lib/net40/Bunifu.Charts.WinForms.xml",
+        "lib/net6.0-windows7.0/Bunifu.Charts.WinForms.dll",
+        "lib/net6.0-windows7.0/Bunifu.Charts.WinForms.xml"
+      ]
+    },
     "Bunifu.Licensing/5.0.0": {
       "sha512": "iVR5SNaC5rjWjwS0mSOFtZfNvW/Hcjw7AEoDPHW4b1y4o2UsOXfV0wJJ9khfdgwODDR/xOW+wpdwY1hiDi6xHw==",
       "type": "package",
@@ -1382,6 +1543,21 @@
         "lib/net40/Bunifu.UI.WinForms.1.5.3.xml",
         "lib/net6.0-windows7.0/Bunifu.UI.WinForms.1.5.3.dll",
         "lib/net6.0-windows7.0/Bunifu.UI.WinForms.1.5.3.xml"
+      ]
+    },
+    "CircularProgressBar/2.8.0.16": {
+      "sha512": "P31wJxwTcQ2mA7wB4X+tnc9QlfSNyPzEOyt3qjf2/6cLLi8mERAfEwNcgt3Qv38/Xiyreo/nVYDe2zIVEv4SQw==",
+      "type": "package",
+      "path": "circularprogressbar/2.8.0.16",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "circularprogressbar.2.8.0.16.nupkg.sha512",
+        "circularprogressbar.nuspec",
+        "lib/net40/CircularProgressBar.dll",
+        "lib/net40/CircularProgressBar.xml",
+        "readme.txt"
       ]
     },
     "Costura.Fody/3.3.3": {
@@ -1438,6 +1614,65 @@
         "netstandardtask/Mono.Cecil.Rocks.pdb",
         "netstandardtask/Mono.Cecil.dll",
         "netstandardtask/Mono.Cecil.pdb"
+      ]
+    },
+    "LiveCharts/0.9.7": {
+      "sha512": "p4xyBrUaNNfkWZSNsIle0r51cyVyFg0Yi0uBRZM5GQtdFiA/7guZHlffFyNUILIdux10Ch2hUaJpcZENVU9aaQ==",
+      "type": "package",
+      "path": "livecharts/0.9.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/LiveCharts.dll",
+        "lib/net40/LiveCharts.pdb",
+        "lib/net40/LiveCharts.xml",
+        "lib/net45/LiveCharts.dll",
+        "lib/net45/LiveCharts.pdb",
+        "lib/net45/LiveCharts.xml",
+        "lib/portable-net45+win8+wp8/LiveCharts.XML",
+        "lib/portable-net45+win8+wp8/LiveCharts.dll",
+        "lib/portable-net45+win8+wp8/LiveCharts.pdb",
+        "livecharts.0.9.7.nupkg.sha512",
+        "livecharts.nuspec",
+        "readme.txt"
+      ]
+    },
+    "LiveCharts.WinForms/0.9.7.1": {
+      "sha512": "eCBsVaxpUKHLpvlJEAhm+BQDWltnzc4VFhM4k4gJ+MsqyGQ/aq/AOWqTWx8OSJ0H52mDTJ1tQjErTYWeikLEOA==",
+      "type": "package",
+      "path": "livecharts.winforms/0.9.7.1",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/LiveCharts.WinForms.XML",
+        "lib/net40/LiveCharts.WinForms.dll",
+        "lib/net40/LiveCharts.WinForms.pdb",
+        "lib/net45/LiveCharts.WinForms.XML",
+        "lib/net45/LiveCharts.WinForms.dll",
+        "lib/net45/LiveCharts.WinForms.pdb",
+        "livecharts.winforms.0.9.7.1.nupkg.sha512",
+        "livecharts.winforms.nuspec",
+        "tools/install.ps1"
+      ]
+    },
+    "LiveCharts.Wpf/0.9.7": {
+      "sha512": "lv6YZoK0B4yWykMq5b9grZXtIbTj+OWu4sVN9GDpdgV6zffu64m4d5CW8KSjfSl9rB8VU649x1NZvhoU67hCDg==",
+      "type": "package",
+      "path": "livecharts.wpf/0.9.7",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/LiveCharts.Wpf.XML",
+        "lib/net40/LiveCharts.Wpf.dll",
+        "lib/net40/LiveCharts.Wpf.pdb",
+        "lib/net45/LiveCharts.Wpf.XML",
+        "lib/net45/LiveCharts.Wpf.dll",
+        "lib/net45/LiveCharts.Wpf.pdb",
+        "livecharts.wpf.0.9.7.nupkg.sha512",
+        "livecharts.wpf.nuspec",
+        "tools/install.ps1"
       ]
     },
     "MaterialSkin.2/2.3.1": {
@@ -1850,6 +2085,43 @@
         "runtimes/win-x86/native/sni.dll",
         "useSharedDesignerContext.txt",
         "version.txt"
+      ]
+    },
+    "SciChart/7.0.1.27055": {
+      "sha512": "0v6NLT88wj3rcUYGlwT+F9OmVPVrrjnvMIfA//yM39mgPOuVSNvYvJ9X81636LlCF3BAU7NNpZ5+0sWtSkatug==",
+      "type": "package",
+      "path": "scichart/7.0.1.27055",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.txt",
+        "images/platform-app-icons_scichart-windows.png",
+        "lib/net462/SciChart.Charting.dll",
+        "lib/net462/SciChart.Charting.xml",
+        "lib/net462/SciChart.Core.dll",
+        "lib/net462/SciChart.Core.xml",
+        "lib/net462/SciChart.Data.dll",
+        "lib/net462/SciChart.Data.xml",
+        "lib/net462/SciChart.Drawing.dll",
+        "lib/net462/SciChart.Drawing.xml",
+        "lib/net6.0-windows7.0/SciChart.Charting.dll",
+        "lib/net6.0-windows7.0/SciChart.Charting.xml",
+        "lib/net6.0-windows7.0/SciChart.Core.dll",
+        "lib/net6.0-windows7.0/SciChart.Core.xml",
+        "lib/net6.0-windows7.0/SciChart.Data.dll",
+        "lib/net6.0-windows7.0/SciChart.Data.xml",
+        "lib/net6.0-windows7.0/SciChart.Drawing.dll",
+        "lib/net6.0-windows7.0/SciChart.Drawing.xml",
+        "lib/netcoreapp3.1/SciChart.Charting.dll",
+        "lib/netcoreapp3.1/SciChart.Charting.xml",
+        "lib/netcoreapp3.1/SciChart.Core.dll",
+        "lib/netcoreapp3.1/SciChart.Core.xml",
+        "lib/netcoreapp3.1/SciChart.Data.dll",
+        "lib/netcoreapp3.1/SciChart.Data.xml",
+        "lib/netcoreapp3.1/SciChart.Drawing.dll",
+        "lib/netcoreapp3.1/SciChart.Drawing.xml",
+        "scichart.7.0.1.27055.nupkg.sha512",
+        "scichart.nuspec"
       ]
     },
     "System.CodeDom/6.0.0": {
@@ -3297,12 +3569,33 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "WinFormAnimation/1.6.0.4": {
+      "sha512": "YSic50luSCgFq+JejHBq5DKwxpNP1VH7uOyBXC+8v6dd+CuUYGlKSOL4EbwT1WeWJQvFBoDMqHnq7HsF95kxrw==",
+      "type": "package",
+      "path": "winformanimation/1.6.0.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/net40/WinFormAnimation.dll",
+        "readme.txt",
+        "winformanimation.1.6.0.4.nupkg.sha512",
+        "winformanimation.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     "net6.0-windows7.0": [
+      "Bunifu.Charts.WinForms >= 2.0.0",
       "Bunifu.UI.WinForms >= 6.1.0",
-      "MaterialSkin.2 >= 2.3.1"
+      "CircularProgressBar >= 2.8.0.16",
+      "LiveCharts >= 0.9.7",
+      "LiveCharts.WinForms >= 0.9.7.1",
+      "LiveCharts.Wpf >= 0.9.7",
+      "MaterialSkin.2 >= 2.3.1",
+      "SciChart >= 7.0.1.27055",
+      "amChartsQuickCharts >= 1.1.0"
     ]
   },
   "packageFolders": {
@@ -3350,13 +3643,41 @@
       "net6.0-windows7.0": {
         "targetAlias": "net6.0-windows",
         "dependencies": {
+          "Bunifu.Charts.WinForms": {
+            "target": "Package",
+            "version": "[2.0.0, )"
+          },
           "Bunifu.UI.WinForms": {
             "target": "Package",
             "version": "[6.1.0, )"
           },
+          "CircularProgressBar": {
+            "target": "Package",
+            "version": "[2.8.0.16, )"
+          },
+          "LiveCharts": {
+            "target": "Package",
+            "version": "[0.9.7, )"
+          },
+          "LiveCharts.WinForms": {
+            "target": "Package",
+            "version": "[0.9.7.1, )"
+          },
+          "LiveCharts.Wpf": {
+            "target": "Package",
+            "version": "[0.9.7, )"
+          },
           "MaterialSkin.2": {
             "target": "Package",
             "version": "[2.3.1, )"
+          },
+          "SciChart": {
+            "target": "Package",
+            "version": "[7.0.1.27055, )"
+          },
+          "amChartsQuickCharts": {
+            "target": "Package",
+            "version": "[1.1.0, )"
           }
         },
         "imports": [
@@ -3387,6 +3708,16 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
+      "message": "Package 'amChartsQuickCharts 1.1.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "amChartsQuickCharts",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
       "message": "Package 'Bunifu.UI.WinForms 6.1.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0-windows7.0'. This package may not be fully compatible with your project.",
       "libraryId": "Bunifu.UI.WinForms",
       "targetGraphs": [
@@ -3397,8 +3728,58 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
+      "message": "Package 'CircularProgressBar 2.8.0.16' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "CircularProgressBar",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'LiveCharts 0.9.7' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "LiveCharts",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'LiveCharts.WinForms 0.9.7.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "LiveCharts.WinForms",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'LiveCharts.Wpf 0.9.7' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "LiveCharts.Wpf",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
       "message": "Package 'RestSharpSigned 105.2.3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0-windows7.0'. This package may not be fully compatible with your project.",
       "libraryId": "RestSharpSigned",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'WinFormAnimation 1.6.0.4' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "WinFormAnimation",
       "targetGraphs": [
         "net6.0-windows7.0"
       ]
