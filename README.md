@@ -1,5 +1,5 @@
-# Discord-Clone
-# AspNetReactSamples
+# Wing-CHat
+# Desktop Application
 
 Wecome to this ASP.NET solution which contains examples of how to incorporate, build and Unit Test 
 [React](https://facebook.github.io/react/) front-end inside an ASP.NET Core (1.0.0) and ASP.NET MVC5 
