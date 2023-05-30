@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="[https://media.giphy.com/media/h2NRnIIEw6tv9emZSc/giphy.gif](https://i.pinimg.com/originals/ec/ec/36/ecec3687a972a20d8ba953b7f1bf4e43.gif)" width="380" height="380" alt="Giphy GIF">
+  <img src="https://i.pinimg.com/originals/ec/ec/36/ecec3687a972a20d8ba953b7f1bf4e43.gif" width="380" height="380" alt="Giphy GIF">
 </p>
 
 # Wing Chat
