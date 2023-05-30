@@ -2,7 +2,7 @@
   <img src="https://media.giphy.com/media/h2NRnIIEw6tv9emZSc/giphy.gif" width="380" height="380" alt="Giphy GIF">
 </p>
 
-# WORKBRIDGE
+# Wing Chat
 
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
@@ -25,7 +25,7 @@
 [linkedin-url]: https://www.linkedin.com/in/nancyhany/
 
 
-WORKBREDGE is a hiring platform similar to LinkedIn that matches job seekers' profiles to recruiters and organizations. This project is developed by me and my team for a university project in the advanced SWE course. 
+Wing Chat is a messaging desktop application that uses C# .NET technology
 
  ## :computer: Technologies
 <div align="center"> 
