@@ -1,4 +1,4 @@
-# Wing-CHat
+# Wing-Chat
 # Desktop Application
 
 Wecome to this ASP.NET solution which contains examples of how to incorporate, build and Unit Test 
