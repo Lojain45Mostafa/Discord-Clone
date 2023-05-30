@@ -30,12 +30,8 @@ Wing Chat is a messaging desktop application that uses C# .NET technology
  ## :computer: Technologies
 <div align="center"> 
 
-<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/springio-icon.svg" alt="spring" height="50" /> 
-<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/javascript-original.svg" alt="java" height="50" /> 
-<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/react-original-wordmark.svg" alt="React" height="50" />  
-<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/tailwindcss.svg" alt="tailwind" height="50" />  
-<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/nodejs-original-wordmark.svg" alt="node" height="50" /> 
-<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/git-scm-icon.svg" alt="git" height="50" /> 
+<img style="margin: 10px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjd5ZkLj0XJdCsJxhI-tz9sKo0gWPjJpe4IxsdKnNlj3GjgYVAODiKxVlVRYHIY9BNTTY&usqp=CAU" alt=".NET" height="50" /> 
+<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/csharp-original.svg" alt="C#" height="50" /> 
 
 </div>  
 
