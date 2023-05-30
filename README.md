@@ -35,16 +35,6 @@ Wing Chat is a messaging desktop application that uses C# .NET technology
 
 </div>  
 
-## :arrow_down: Installation
-
-We have Divided our project into two sub projects, one for the API and one for the FrontEnd part. 
-### _setting up the frontend project_ <br>
-### :hammer: _ReactJs settup_ 
-:one: Make sure you have installed node js. If not, install it from here https://nodejs.org/en/download <br>
-:two: type `cd WorkBridge-ui` and then Install npm by running the following command: `npm install` <br>
-:three: run `npm install react-scripts` <br>
-_if you want to run the ReactJs app, type `npm start` <br>
-
 
  ## :octocat: Git & GitHub 
 ### adding your work from the working branch area to the remote branch 
@@ -57,25 +47,15 @@ _if you want to run the ReactJs app, type `npm start` <br>
 :three: `git push` <br>
 
 
-## :eyeglasses: Team Work 
+:eyeglasses: Team Work
+Conventions and Rules
+Please carefully review and adhere to each point in your tasks
+Focus on your designated task files and folders and maintain organization (avoid modifying other tasks and folders to prevent conflicts).
+Follow the correct naming conventions in your .NET code.
+Utilize MVC as required in your code.
+Review your code after completion and consider any potential enhancements (Is the code clean? Can it be further improved? Did you adhere to naming conventions?).
+Develop React components for your tasks while ensuring compliance with React naming conventions.
+Please note that these guidelines are specific to the context of .NET and React development, and you may need to adapt them to your specific project or team requirements.
 
-### _conventions and Rules_  
-#### _kindly read it carefully and apply each point in your tasks_
-- build an organzied OCL document for your task before starting it 
-- work only on your task files and folders and be organized ( don't touch other tasks and folders and avoid conflicts ) 
-- use the correct naming conventions in your code 
-- use Aspect Oriented programming as much as needed in your code 
-- review your code after finishing it and check if it needs any kind of enhancements ( is the code clean ?, can it be more clean?, did i use naming conventions?....)
-- build ReactJs components for your tasks and be aware of React naming conventions 
-
-### _Jira collaboration_
-- each sprint (meeting) we will be doing a peer review on each others code 
-- each sprint (meeting) we will push our work to the meant branches and merging them with the main branch ( deliver the version ) 
-- each sprint (meeting) we will be estimating the tasks duration, effort level by using the poker cards way <br>
-..to be completed..
-
-## :white_check_mark: License
-
-not yet
 
 <!-- This project is licensed under the MIT License - see the LICENSE file for details. -->
